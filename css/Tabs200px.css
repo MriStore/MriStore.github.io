@@ -54,7 +54,7 @@
 
 .tabs label:after {
     content: '';
-	background: #385c5b;'fff'
+	background: #385c5b;
 	position: absolute;
 	bottom: -2px;
 	left: 0;
@@ -97,7 +97,7 @@
     background: #fff;
 	position: relative;
     width: 100%;
-	height: 370px;
+	height: 400px;
 	z-index: 5;
     box-shadow: 0 -2px 3px -2px rgba(0,0,0,0.2), 0 2px 2px rgba(0,0,0,0.1);
     border-radius: 0 3px 3px 3px;
@@ -107,7 +107,7 @@
     position: absolute;
 	top: 0;
 	left: 0;
-	padding: 10px 40px;
+	padding: 0px 0px;
 	z-index: 1;
     opacity: 0;
 
@@ -144,7 +144,7 @@
 	text-align: left;
 	margin: 0;
 	color: #777;
-	padding-left: 15px;
+	padding-left: 0px;
 	font-family: Cambria, Georgia, serif;
-	border-left: 8px solid rgba(63,148,148, 0.1);
+	border-left: 2px solid rgba(63,148,148, 0.1);
 }
