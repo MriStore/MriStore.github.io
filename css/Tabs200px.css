@@ -1,13 +1,13 @@
 .tabs {
     position: relative;
 	margin: 40px auto;
-	width: 750px;
+	width: 200px;
 }
 
 .tabs input {
 	position: absolute;
 	z-index: 1000;
-	width: 120px;
+	width: 100px;
 	height: 40px;
 	left: 0px;
 	top: 0px;
