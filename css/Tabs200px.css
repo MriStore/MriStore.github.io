@@ -203,20 +203,20 @@
 	background: #5ba4a4;
 }
 
-.tabs2 label:first-of-type {
+.tabs2 label2:first-of-type {
     z-index: 4;
     box-shadow: 2px 0 2px rgba(0,0,0,0.1);
 }
 
-.tab-label-2 {
+.tab-label-22 {
     z-index: 3;
 }
 
-.tab-label-3 {
+.tab-label-32 {
     z-index: 2;
 }
 
-.tab-label-4 {
+.tab-label-42 {
     z-index: 1;
 }
 
@@ -254,10 +254,10 @@
     transition: opacity linear 0.1s;
 }
 
-.tabs2 input.tab-selector-1:checked ~ .content .content-1,
-.tabs2 input.tab-selector-2:checked ~ .content .content-2,
-.tabs2 input.tab-selector-3:checked ~ .content .content-3,
-.tabs2 input.tab-selector-4:checked ~ .content .content-4 {
+.tabs2 input.tab-selector-12:checked ~ .content .content-1,
+.tabs2 input.tab-selector-22:checked ~ .content .content-2,
+.tabs2 input.tab-selector-32:checked ~ .content .content-3,
+.tabs2 input.tab-selector-42:checked ~ .content .content-4 {
 	z-index: 100;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
