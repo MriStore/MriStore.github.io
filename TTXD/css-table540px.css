@@ -4,7 +4,7 @@
   height: 465px;
 }
 table {
-  width: 540px;
+  width: 542px;
   table-layout: fixed;
   td {
     vertical-align: top;
@@ -18,7 +18,7 @@ table {
 }
 img {
   display: block;
-  margin-left: 4px; 
+  margin-left: 0px; 
   margin-right: auto;
   border: 1px solid #ddd;
   border-radius: 6px;
