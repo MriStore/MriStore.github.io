@@ -20,10 +20,13 @@ table {
 }
 img {
   display: block;
-  margin-left: 0px; 
-  margin-right: auto;
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 5px;
+  margin: 0px auto; /*  margin-left: 0px; margin-right: auto; */
+/*  Dieu chinh doi tuong img */
+  position: relative;
+  right: 11px;
   max-width: 500px;
 }
+/* Add file (local) <link rel="stylesheet" type="text/css"  href="files/css-table540px.css"> */
