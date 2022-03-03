@@ -1,0 +1,34 @@
+.scroll {
+  overflow-x:hidden;
+  overflow-y:auto;
+  height: 335px;
+}
+table {
+  width: 440px;
+  table-layout: fixed;
+  font-size: 14px;
+  line-height: 1.2;
+  td {
+    vertical-align: top;
+    &[colspan] {
+      padding: 0;
+    }
+  }
+  thead {
+    vertical-align: bottom;
+  }
+}
+img {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px;
+  width: 340px;
+  height: 320px;
+  margin: 0px auto; /*  margin-left: 0px; margin-right: auto; */
+/*  Dieu chinh doi tuong img */
+  position: relative;
+  right: 11px;
+  max-width: 500px;
+}
+/* Add file (local) <link rel="stylesheet" type="text/css"  href="files/css-table540px.css"> */
