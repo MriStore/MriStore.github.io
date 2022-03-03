@@ -20,7 +20,7 @@ table {
 }
 img {
   display: block;
-  margin-left: auto; 
+  margin-left: 0; 
   margin-right: auto;
   border: 1px solid #ddd;
   border-radius: 6px;
