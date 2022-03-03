@@ -28,5 +28,5 @@ img {
 /*  Dieu chinh doi tuong img */
   position: relative;
   right: 11px;
-  width: 740px;
+  max-width: 740px;
 /* Add file (local) <link rel="stylesheet" type="text/css"  href="files/css-table540px.css"> */
