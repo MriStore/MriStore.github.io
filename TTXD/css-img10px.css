@@ -6,6 +6,8 @@
 table {
   width: 400px;
   table-layout: fixed;
+  font-size: 14px;
+  line-height: 1.2;
   td {
     vertical-align: top;
     &[colspan] {
