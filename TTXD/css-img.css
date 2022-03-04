@@ -1,12 +1,58 @@
+/* 
+# CSS Dùng cho Google Earth #
+# Mr.Huong
+# TTrSXD
+ */
+
+/* Dành cho điện thoại */
+@media all and (min-width: 320px) {
+	.scroll {
+			height: 335px;
+		}
+	table {
+		width: 440px;
+	}
+	img {
+		max-width: 340px !important;
+	}
+}
+/* Dành cho máy tính bảng chiều dọc */
+
+@media all and (min-width: 600px) {
+	.scroll {
+		height: 430px;
+		}
+	table {
+		width: 782px;
+		font-size: 14px;
+	}
+	img {
+		max-width: 740px !important;
+	}
+}
+
+
+/* Dành cho máy tính bảng chiều ngang - desktop */
+@media all and (min-width: 1024px) {
+	.scroll {
+		height: 430px;
+		}
+	table {
+		width: 782px;
+		font-size: 14px;
+	}
+	img {
+		max-width: 740px !important;
+	}
+}
+
+/* Dùng chung các thiết bị */
 .scroll {
   overflow-x:hidden;
   overflow-y:auto;
-  height: 335px;
 }
 table {
-  width: 440px;
   table-layout: fixed;
-  font-size: 14px;
   line-height: 1.2;
   td {
     vertical-align: top;
@@ -20,15 +66,15 @@ table {
 }
 img {
   display: block;
+  margin: 0px auto; 
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 5px;
-  width: 340px;
-  height: 320px;
   margin: 0px auto; /*  margin-left: 0px; margin-right: auto; */
 /*  Dieu chinh doi tuong img */
   position: relative;
   right: 11px;
-  max-width: 500px;
+  object-fit: contain;
+  max-width: 740px;
 }
-/* Add file (local) <link rel="stylesheet" type="text/css"  href="files/css-table540px.css"> */
+/* Add file (local) <link rel="stylesheet" type="text/css"  href="files/css-xxxx.css"> */
