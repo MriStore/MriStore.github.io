@@ -70,13 +70,12 @@ table {
     vertical-align: bottom;
   }
 }
-img {
+img { /*  Dieu chinh doi tuong img */
   display: block;
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 5px;
-  margin: 0px auto; /*  margin-left: auto; margin-right: auto; */
-/*  Dieu chinh doi tuong img */
+  margin: 0.5rem auto; /*  margin-left: auto; margin-right: auto; */
   position: relative;
   object-fit: contain;
   max-width: 740px
