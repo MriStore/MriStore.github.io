@@ -18,14 +18,13 @@ table {
     vertical-align: bottom;
   }
 }
-img {
+img { /*  Dieu chinh doi tuong img */
   display: block;
   margin: 0px auto; 
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 5px;
-  margin: 0px auto; /*  margin-left: 0px; margin-right: auto; */
-/*  Dieu chinh doi tuong img */
+  margin: 0.5rem auto; /*  margin-left: 0px; margin-right: auto; */
   position: relative;
   right: 11px;
   max-width: 740px;
