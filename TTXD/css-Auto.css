@@ -87,11 +87,13 @@ ol {
   background: #ff9999;
   padding: 15px;
 }
+
 ol li {
-  background: #cce5ff;
+  background: #ffe5e5;
   color: darblue;
-  margin: 3px;
+  margin: 5px;
+  margin-left: 10px;
   font-size:14px;
-  font-weight: ;
+  font-weight: bold;
   line-height: 1.3;
 }
