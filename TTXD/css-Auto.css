@@ -83,7 +83,10 @@ img { /*  Dieu chinh doi tuong img */
 /* Add file (local) <link rel="stylesheet" type="text/css"  href="files/css-xxxx.css"> */
 
 /*  Dieu chinh doi tuong OL LI UL */
-
+ul {
+  background: #ff9999;
+  padding: 15px;
+}
 ol li {
   background: #cce5ff;
   color: darblue;
