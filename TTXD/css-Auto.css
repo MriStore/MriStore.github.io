@@ -85,9 +85,10 @@ img { /*  Dieu chinh doi tuong img */
 /*  Dieu chinh doi tuong OL LI UL */
 
 ol li {
-  
-  color: darkred;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1.6;
+  background: #cce5ff;
+  color: darblue;
+  margin: 3px;
+  font-size:14px;
+  font-weight: ;
+  line-height: 1.3;
 }
