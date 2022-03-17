@@ -81,3 +81,12 @@ img { /*  Dieu chinh doi tuong img */
   max-width: 740px
 }
 /* Add file (local) <link rel="stylesheet" type="text/css"  href="files/css-xxxx.css"> */
+
+/*  Dieu chinh doi tuong OL LI UL */
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  font-size: 13px;
+  font-weight: bold;
+}
