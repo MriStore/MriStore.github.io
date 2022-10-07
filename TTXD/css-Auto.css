@@ -22,13 +22,13 @@
 	}
 }
 /* Dành cho máy tính bảng chiều dọc */
-@media all and (min-width: 600px) {
+@media all and (min-width: 700px) {
 	.scroll {
 		height: 440px;
 	}
 	table {
 		width: 98%;
-		font-size: 16px;
+		font-size: 20px;
 	}
 	img {
 		max-width: 97.5% !important;
@@ -43,7 +43,7 @@
 	}
 	table {
 		width: 782px;
-		font-size: 20px;
+		font-size: 25px;
 	}
 	img {
 		max-width: 740px !important;
